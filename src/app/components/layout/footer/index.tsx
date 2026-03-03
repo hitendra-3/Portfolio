@@ -14,13 +14,14 @@ const Footer = () => {
           </div>
           <div className="flex items-center justify-between w-full flex-col sm:flex-row gap-3">
             <p className="text-secondary text-sm sm:text-base">
-              © 2026 Portfolio. All rights reserved.
+              © 2026 Hitendra S. All rights reserved.
             </p>
             <button
               type="button"
               className="text-secondary text-sm sm:text-base hover:text-primary transition-colors duration-300"
             >
-              Hitendra
+              Let’s Connect & Collaborate | 
+              <span className="text-primary"> Open for Internships</span>
             </button>
           </div>
         </div>

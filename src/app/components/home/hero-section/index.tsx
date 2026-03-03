@@ -48,21 +48,21 @@ const index = () => {
             </p>
           </div>
           <Image
-            src={getImgPath("/images/home/banner/banner-img.png")}
-            alt="banner-img"
-            width={685}
-            height={650}
-            className="block lg:hidden"
+            src={getImgPath("/images/home/banner/hero3.png")}
+            alt="3D developer at desk illustration"
+            width={1800}
+            height={1080}
+            className="block w-full mx-auto lg:hidden"
           />
         </div>
       </div>
-      <div className="absolute right-0 top-0 hidden h-auto w-1/2 lg:block 2xl:h-171.5 2xl:w-187.5">
+      <div className="absolute right-0 bottom-0 hidden h-full w-1/2 lg:block pointer-events-none">
         <Image
-          src={getImgPath("/images/home/banner/banner-img.png")}
-          alt="banner-img"
-          width={685}
-          height={650}
-          className=" absolute right-0 top-0 z-1"
+          src={getImgPath("/images/home/banner/hero3.png")}
+          alt="3D developer at desk illustration"
+          width={2200}
+          height={1320}
+          className="absolute right-0 left-20 bottom-0 top-45 h-full w-auto z-1 object-contain transform translate-x-32 scale-150 origin-bottom-right"
         />
       </div>
     </section>
