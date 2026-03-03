@@ -1,0 +1,88 @@
+{
+  "_comment": "USER: Update your social and contact links here. Icons can be found in /public/images/icon/",
+  "contactBar": {
+    "contactItems": [
+      {
+        "type": "email",
+        "label": "Email",
+        "icon": "/images/icon/mail-icon.svg",
+        "link": "shitendra777@gmail.com"
+      }
+    ],
+    "socialItems": [
+      {
+        "platform": "github",
+        "icon": "/images/icon/github-icon.svg",
+        "link": "https://github.com/hitendra-3"
+      },
+      {
+        "platform": "linkedin",
+        "icon": "/images/icon/linkedin-icon.svg",
+        "link": "https://www.linkedin.com/in/hitendra-s-a4b1b8332/"
+      }
+    ]
+  },
+  "educationData": {
+    "education": [
+      {
+        "title": "Bachelor of Engineering in Computer Science and Engineering - 2024-2027 (Pursuing)",
+        "description": "CMR Institute of Technology, Bengaluru. Focused on advanced software development principles and data structures."
+      },
+      {
+        "title": "Diploma in Computer Science and Engineering - 2021-2024",
+        "description": "MEI Polytechnic, Bengaluru. CGPA: 9.17 / 10. Strong foundation in core engineering concepts."
+      }
+    ],
+    "skills": [
+      {
+        "name": "Java",
+        "icon": "/images/home/education-skill/java-icon.svg",
+        "rating": 5
+      },
+      {
+        "name": "Python",
+        "icon": "/images/home/education-skill/python-icon.svg",
+        "rating": 5
+      },
+      {
+        "name": "JavaScript",
+        "icon": "/images/home/education-skill/js-icon.svg",
+        "rating": 5
+      },
+      {
+        "name": "React.js",
+        "icon": "/images/home/education-skill/react-icon.svg",
+        "rating": 5
+      },
+      {
+        "name": "Node.js",
+        "icon": "/images/home/education-skill/node-icon.svg",
+        "rating": 4
+      },
+      {
+        "name": "SQL",
+        "icon": "/images/home/education-skill/sql-icon.svg",
+        "rating": 4
+      }
+    ]
+  },
+  "contactLinks": {
+    "socialLinks": [
+      {
+        "title": "GitHub",
+        "href": "https://github.com/hitendra-3"
+      },
+      {
+        "title": "LinkedIn",
+        "href": "https://www.linkedin.com/in/hitendra-s-a4b1b8332/"
+      }
+    ],
+    "contactInfo": [
+      {
+        "type": "email",
+        "label": "Email",
+        "link": "shitendra777@gmail.com"
+      }
+    ]
+  }
+}

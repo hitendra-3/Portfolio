@@ -1,0 +1,9 @@
+<svg width="70" height="70" viewBox="0 0 70 70" xmlns="http://www.w3.org/2000/svg">
+  <rect x="5" y="5" width="60" height="60" rx="14" fill="#3C873A"/>
+  <path d="M35 16L48 23V37L35 44L22 37V23L35 16Z" fill="#FFFFFF" fill-opacity="0.9"/>
+  <text x="35" y="37" text-anchor="middle"
+        font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+        font-size="10" font-weight="700" fill="#3C873A">
+    node
+  </text>
+</svg>

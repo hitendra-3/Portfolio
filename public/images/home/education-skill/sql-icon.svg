@@ -1,0 +1,11 @@
+<svg width="70" height="70" viewBox="0 0 70 70" xmlns="http://www.w3.org/2000/svg">
+  <rect x="5" y="5" width="60" height="60" rx="14" fill="#FF6F61"/>
+  <ellipse cx="35" cy="22" rx="15" ry="6" fill="#FFFFFF" fill-opacity="0.95"/>
+  <path d="M20 22V40C20 43 24 45 35 45C46 45 50 43 50 40V22" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  <ellipse cx="35" cy="40" rx="15" ry="6" fill="#FFFFFF" fill-opacity="0.95"/>
+  <text x="35" y="53" text-anchor="middle"
+        font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+        font-size="12" font-weight="700" fill="#FFFFFF">
+    SQL
+  </text>
+</svg>
