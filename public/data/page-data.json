@@ -57,12 +57,12 @@
       {
         "name": "Node.js",
         "icon": "/images/home/education-skill/node-icon.svg",
-        "rating": 4
+        "rating": 5
       },
       {
         "name": "SQL",
         "icon": "/images/home/education-skill/sql-icon.svg",
-        "rating": 4
+        "rating": 5
       }
     ]
   },

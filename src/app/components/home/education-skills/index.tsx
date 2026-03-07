@@ -60,31 +60,34 @@ const EducationSkills = () => {
                   return (
                     <div
                       key={index}
-                      className="p-4 xl:p-6 border border-softGray rounded-lg flex flex-col gap-5 sm:gap-10 items-center justify-between"
+                      className="p-6 xl:p-8 border border-softGray rounded-xl flex flex-col gap-6 items-center justify-center bg-white hover:border-primary transition-colors duration-300"
                     >
-                      <div className="flex flex-col items-center gap-5">
-                        <Image
-                          src={getImgPath(value?.icon)}
-                          alt="icon"
-                          width={70}
-                          height={70}
-                        />
-                        <p className="text-black font-normal">{value?.name}</p>
+                      <div className="flex flex-col items-center gap-4 text-center">
+                        <div className="h-20 flex items-center justify-center mb-2">
+                          <Image
+                            src={getImgPath(value?.icon)}
+                            alt={value?.name}
+                            width={80}
+                            height={80}
+                            className="object-contain"
+                          />
+                        </div>
+                        <p className="text-black font-normal text-lg">{value?.name}</p>
                       </div>
-                      <div className="flex gap-1">
+                      <div className="flex gap-1.5 mt-auto">
                         {[...Array(5)].map((_, i) => (
                           <svg
                             key={i}
-                            width="9"
-                            height="9"
-                            viewBox="0 0 9 9"
+                            width="10"
+                            height="10"
+                            viewBox="0 0 10 10"
                             fill="none"
                             xmlns="http://www.w3.org/2000/svg"
                           >
-                            <rect
-                              width="9"
-                              height="9"
-                              rx="4.5"
+                            <circle
+                              cx="5"
+                              cy="5"
+                              r="5"
                               fill={i < value?.rating ? "#FE4300" : "#C0D8E0"}
                             />
                           </svg>

@@ -2,21 +2,9 @@
   "workData": [
     {
       "image": "/images/work/chat-web.jpg",
-      "title": "Modern Real-Time Chat Application",
-      "client": "Project | React.js, Node.js, Socket.IO, Express",
-      "slug": "https://modern-chat-app-mrqx.onrender.com/"
-    },
-    {
-      "image": "/images/work/video-call.jpg",
-      "title": "Real-Time Video Calling Application",
-      "client": "Project | WebRTC, JavaScript, Node.js, Socket.IO",
-      "slug": "https://random-video-call-wqh5.onrender.com/"
-    },
-    {
-      "image": "/images/work/ai-chat-bot.webp",
-      "title": "AI Chat Bot",
-      "client": "Project | React.js, Node.js, Socket.IO, Express",
-      "slug": "https://ai-chat-bot-one-woad.vercel.app/"
+      "title": "FluxChat – Real-Time Message Flow",
+      "client": "Project | TypeScript, Node.js, Socket.IO, CSS",
+      "slug": "https://fluxchat-kubf.onrender.com/"
     },
     {
       "image": "/images/work/eco.jpg",
